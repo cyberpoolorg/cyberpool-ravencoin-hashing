@@ -80,8 +80,11 @@
                 "src/crypto",
                 "<!(node -e \"require('nan')\")"
             ],
+	    "cflags": [
+		    "-Wno-nonnull-compare"
+	    ],
             "cflags_cc": [
-                "-std=c++11 -Wno-nonnull-compare"
+		    "-std=c++11"
             ],
         }
     ]
