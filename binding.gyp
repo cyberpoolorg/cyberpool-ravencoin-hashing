@@ -9,7 +9,7 @@
                 "src/boolberry.cc",
                 "src/c11.c",
                 "src/cryptonight.c",
-				"src/cryptonight_fast.c",
+		"src/cryptonight_fast.c",
                 "src/fresh.c",
                 "src/fugue.c",
                 "src/groestl.c",
